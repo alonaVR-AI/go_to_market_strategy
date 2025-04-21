@@ -31,10 +31,7 @@ const nextConfig = {
         destination: "https://api.openai.com/:path*",
       },
     ];
-  },
-  experimental: {
-    serverActions: true,
-  },
+  }
 };
 
 export default nextConfig;
