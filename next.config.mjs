@@ -24,8 +24,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
-  // Remove rewrites since we're using API routes directly
-  // Add proper runtime configuration
+  // Remove experimental flags and rewrites
   typescript: {
     ignoreBuildErrors: true,
   },
